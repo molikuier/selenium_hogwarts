@@ -1,10 +1,10 @@
 package test;
 
 import driver.Driver;
-import org.junit.jupiter.api.BeforeAll;
 
 public class TestCase {
-    @BeforeAll
+//    @BeforeAll
+//    @BeforeClass
     static void setup(){
         Driver.getInstance().start();
     }
